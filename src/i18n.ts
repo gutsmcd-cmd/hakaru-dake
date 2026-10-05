@@ -23,7 +23,7 @@ const ja = {
 };
 export type Dict = typeof ja;
 const en: Dict = {
-  app: 'Hakaru Dake',
+  app: 'Just Time',
   sub: 'A time tracker with no login. Only one timer runs at a time.',
   taskPh: 'Task name',
   add: 'Add',
