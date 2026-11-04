@@ -9,8 +9,8 @@ export default defineConfig({
       includeAssets: ['icons/*.png'],
       manifest: {
         id: '/hakaru-dake/',
-        name: 'はかるだけ',
-        short_name: 'はかるだけ',
+        name: 'Just Time',
+        short_name: 'Just Time',
         description:
           'アカウント不要の時間計測。無料・広告なし・ログイン不要・オフライン対応。A local time tracker — free, no ads, no login, offline.',
         lang: 'ja',

@@ -77,7 +77,7 @@ function setLang(l: Lang): void {
   state.lang = l;
   t = dicts[l];
   document.documentElement.lang = l;
-  document.title = t.app;
+  document.title = 'Just Time';
   queueSave();
   render();
 }
@@ -304,7 +304,7 @@ async function boot(): Promise<void> {
   }
   t = dicts[state.lang];
   document.documentElement.lang = state.lang;
-  document.title = t.app;
+  document.title = 'Just Time';
   render();
   window.setInterval(tick, 500);
 }
